@@ -1,0 +1,436 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="style.css">
+        <title>Data Enthusiast | Senior Auditor</title>
+    </head>
+    <body>
+        <!-- SECCION I N I C I O-->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>/LT/</h1>
+                        <nav id="nav" class>
+                            <ul id="links">
+                                <li>
+                                    <a href="#inicio" class="seleccionado" onclick="seleccionar(this)">WELCOME</a>
+                                </li>
+                                <li>
+                                    <a href="#sobremi" onclick="seleccionar(this)">ABOUT ME</a>
+                                </li>
+                                <li>
+                                    <a href="#servicios" onclick="seleccionar(this)">EDUCATION</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio" onclick="seleccionar(this)">EXPERIENCE</a>
+                                </li>
+                                <li>
+                                    <a href="#cursos" onclick="seleccionar(this)">COURSES</a>
+                                </li>
+                                <li>
+                                    <a href="#contacto" onclick="seleccionar(this)">CONTACT</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.youtube.com/@luisinatorcassi">
+                            <i class="fa-brands fa-youtube">
+                                
+                            </i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/luisina-torcassi-42a53b165/">
+                            <i class="fa-brands fa-linkedin">
+                                
+                            </i>
+                        </a>
+                        <a href="https://github.com/luisinat">
+                            <i class="fa-brands fa-github-square">
+                                
+                            </i>
+                        </a>
+                    </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Welcome</p>
+                    <h2>
+                        I'm <span>Luisina Torcassi</span>
+                        , data enthusiast
+                    </h2>
+                    <p class="descripcion">Below is my professional and work journey</p>
+                    <a href="#portfolio"> Go to Portfolio</a>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION S O B R E M I-->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="imagenes\Imagen linkedin.jpg" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion"> About Me</p>
+                <h2>
+                    Hello! I'm 
+                    <span>Luisina Torcassi</span>
+                </h2>
+                <h3>Senior Auditor</h3>
+                <p>
+                    🔍 Auditor with more than five years of experience in conducting EEFF audits under local Argentine standards and international standards (IFRS, US GAAP) and process audits (internal control - SOX).
+                </p>
+                <p>
+                    📚 Constantly evolving technology enthusiast with more than two years training in the IT world. Specializing in languages such as Python and JavaScript. My learning journey also encompasses web development, where I have gained strong skills in HTML and CSS.
+                </p>
+                <p>
+                    ☁️ I have explored the possibilities offered by Google Cloud Platform (GCP), expanding my knowledge of cloud solutions. My goal is to merge my analytical profile with code precision to build impactful and efficient solutions.
+                </p>
+                <p>
+                    🌐 Featured Skills:
+                    <br>
+                    💻 Python | JavaScript
+                    <br>
+                    🎨 HTML | CSS
+                    <br>
+                    ☁️ Google Cloud Platform (GCP)
+                </p>
+                <a href="pdfs\cv_luisina.pdf" download="cvluisina.pdf"> Download CV </a>
+            </div>
+        </section>
+        <!-- SECCION E D U C A C I O N-->
+        <section id="servicios">
+            <h3 class="titulo-seccion">MY EDUCATION</h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-code">  
+                        </i>
+                    </span>
+                    <h4>Master of Business Administration - MBA</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li><a href="https://contenidos.21.edu.ar/microsites/mba-virtual/" target="_blank" >Universidad Empresarial Siglo21</a></li>
+                    </ul>
+                    <p>
+                        March 2020 - June 2023
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-file-code">
+                        </i>
+                    </span>
+                    <h4>Public Accountant</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li><a href="https://economicas.unlam.edu.ar/preview.php?seccion=3&idArticulo=7">UNLaM </a></li>
+                    </ul>
+                    <p>
+                        April 2011 - June 2017
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-arrow-trend-up">
+                            
+                        </i>
+                    </span>
+                    <h4>Diploma in data processing and data processing technology</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li><a href="https://utnba.centrodeelearning.com/detalle/diplomatura/630/diplomatura-en-business-intelligence?id=999188367">Universidad Nacional Tecnológica</a></li>
+                    </ul>
+                    <p>
+                        August 2018 - December 2018
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION H A B I L I D A D E S-->
+        <div class="contenedor-skills" id="skills">
+            <h3>MY ABILITIES</h3>
+            <div class="skill">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span>
+                        JavaScript
+                    </p>
+                    <span class="porcentaje">30%</span>
+                </div>
+                <div class="barra">
+                    <div class="barra-progreso1" id="html"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span>
+                        Python
+                    </p>
+                    <span class="porcentaje">20%</span>
+                </div>
+                <div class="barra">
+                    <div class="barra-progreso2" id="js"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span>
+                        HTML & CSS
+                    </p>
+                    <span class="porcentaje">40%</span>
+                </div>
+                <div class="barra">
+                    <div class="barra-progreso3" id="bd"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p>
+                        <span class="lista"></span>
+                        GCP
+                    </p>
+                    <span class="porcentaje">20%</span>
+                </div>
+                <div class="barra">
+                    <div class="barra-progreso4" id="ps"></div>
+                </div>
+            </div>
+        </div>
+        <!-- SECCION E X P E R I E N C I A-->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">My experience</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes\proyecto1.jpg" alt>
+                    <div class="info">
+                        <h4>Senior Consultant Internal Audit, Risk & Compliance </h4>
+                        <p class="empresa">KPGM Argentina</p>
+                        <p class="años">Jul 2021 - Jun 2022</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes\proyecto2.jpg" alt>
+                    <div class="info">
+                        <h4>Senior auditor </h4>
+                        <p class="empresa">KPGM Argentina</p>
+                        <p class="años">Oct 2018 - Jul 2021</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes\proyecto3.jpg" alt>
+                    <div class="info">
+                        <h4>Auditor Semi Senior </h4>
+                        <p class="empresa">KPGM Argentina</p>
+                        <p class="años">Jan 2017 - Sept 2018</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes\proyecto4.jpg" alt>
+                    <div class="info">
+                        <h4>Junior Auditor</h4>
+                        <p class="empresa">KPGM Argentina</p>
+                        <p class="años">Dec 2016 - Dec 2017</p>
+                    </div>
+                </div>
+            </div>     
+        </section>
+        <!-- SECCION C U R S O S-->
+        <section class="contenedor-cursos" id="cursos">
+            <h3 class="titulo-seccion">COMPLETED COURSES</h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-code">  
+                        </i>
+                    </span>
+                    <h4>Initial Web Programming - Front end, project management and emotional intelligence. </h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Universidad Nacional Tecnológica</li>
+                    </ul>
+                    <p>
+                        December 2023
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-file-code"> 
+                        </i>
+                    </span>
+                    <h4>Introductory Course to Python </h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>IEEE-ITBA Student Branch</li>
+                    </ul>
+                    <p>
+                        August 2023
+                    </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-arrow-trend-up">
+                        </i>
+                    </span>
+                    <h4>Se programar: con JS y Rubí</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Instituto Nacional de Tecnología Industrial</li>
+                    </ul>
+                    <p>
+                        April 2023
+                    </p>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-code">  
+                        </i>
+                    </span>
+                    <h4>Preparing for your Associate Cloud Engineer Journey</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Coursera</li>
+                    </ul>
+                    <p>
+                        December 2022
+                    </p>
+                </div>  
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-file-code">  
+                        </i>
+                    </span>
+                    <h4>Elastic Cloud Infrastructure: Scaling and Automation</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Grow with Google</li>
+                    </ul>
+                    <p>
+                        November 2022
+                    </p>
+                </div> 
+                <div class="servicio">
+                    <span class="icono">
+                        <i class="fa-solid fa-arrow-trend-up">  
+                        </i>
+                    </span>
+                    <h4>Reliable Cloud Infrastructure: Design and Process</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Grow with Google</li>
+                    </ul>
+                    <p>
+                        November 2022
+                    </p>
+                </div> 
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-code">  
+                    </i>
+                </span>
+                <h4>Essential Cloud Infrastructure: Core Services</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Grow with Google</li>
+                </ul>
+                <p>
+                    October 2022
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-file-code">  
+                    </i>
+                </span>
+                <h4>Essential Cloud Infrastructure: Foundation</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Grow with Google</li>
+                </ul>
+                <p>
+                    October 2022
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-arrow-trend-up">  
+                    </i>
+                </span>
+                <h4>Google Cloud Fundamental: Core Infrastructure</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Grow with Google</li>
+                </ul>
+                <p>
+                    October 2022
+                </p>
+            </div>
+        </div>
+        </section>
+        <!-- SECCION C O N T A C T O-->
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contact</h3>
+            <div class="contenedor-form">
+                <p class="info-contacto">If you want to contact me, you can do so through the following means:</p>
+                <ul>
+                    <li class="info-contacto">Email: <a href="luisinatorcassi@hotmail.com">luisinatorcassi@hotmail.com</a></li>
+                    <li class="info-contacto">Spain phone number: <a href="tel:+34695779515">+34 695 779 515</a></li>
+                    <li class="info-contacto">Argentina phone number: <a href="tel:+5491161418676">+54 9 1161418676</a></li>
+                    <!-- Otros medios de contacto alternativos aquí por formulario-->
+                </ul>
+                <form action="procesar_formulario.php" method="post">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Full name *" class="input-mitad" id="nombre">
+                        <input type="email" placeholder="Email address" class="input-mitad" id="email">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Issue..." class="input-full">
+                    </div> 
+                    <div class="fila">
+                        <textarea name id cols="30" rows="10" placeholder="Your message..." class="input-full" id="mensaje"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>All rights reserved - 2024 </p>
+            <div class="redes">
+                <a href="https://www.youtube.com/@luisinatorcassi">
+                    <i class="fa-brands fa-youtube" >
+                        
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/in/luisina-torcassi-42a53b165/">
+                    <i class="fa-brands fa-linkedin">
+                        
+                    </i>
+                </a>
+                <a href="https://github.com/luisinat">
+                    <i class="fa-brands fa-github-square">
+                        
+                    </i>
+                </a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

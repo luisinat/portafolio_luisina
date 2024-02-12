@@ -39,3 +39,8 @@ function efectoHabilidades() {
     }
 
 }
+
+function enviarMensaje() {
+    // Mostrar el mensaje de confirmación
+    alert("¡Muchas gracias, mensaje enviado!");
+}

@@ -349,6 +349,9 @@ li a:hover {
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
 #servicios .fila {
@@ -365,6 +368,9 @@ li a:hover {
     margin: 0 5px;
     border-radius: 5px;
     transition: .5s;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
 #servicios .fila .servicio .icono {
@@ -418,6 +424,9 @@ li a:hover {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
 
@@ -426,6 +435,9 @@ li a:hover {
     line-height: 22px;
     color: #eb5a5acc;
     font-weight: bold;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
 }
 
 

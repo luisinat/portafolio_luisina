@@ -396,18 +396,20 @@
                     <li class="info-contacto">Argentina phone number: <a href="tel:+5491161418676">+54 9 1161418676</a></li>
                     <!-- Otros medios de contacto alternativos aquí por formulario-->
                 </ul>
-                <form method="post">
+                <form id="miFormulario">
                     <div class="fila mitad">
                         <input type="text" placeholder="Full name *" class="input-mitad" id="nombre">
                         <input type="email" placeholder="Email address" class="input-mitad" id="email">
                     </div>
                     <div class="fila">
-                        <input type="text" placeholder="Issue..." class="input-full">
+                        <input type="text" placeholder="Issue..." class="input-full" id="issue">
                     </div> 
                     <div class="fila">
-                        <textarea name id cols="30" rows="10" placeholder="Your message..." class="input-full" id="mensaje"></textarea>
+                        <textarea cols="30" rows="10" placeholder="Your message..." class="input-full" id="mensaje"></textarea>
                     </div>
+                    <div class="fila">
                     <input type="submit" onclick="enviarMensaje()" value="Send Message" class="btn-enviar">
+                    </div>
                 </form>
             </div>
         </section>
